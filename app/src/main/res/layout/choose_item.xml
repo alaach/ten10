@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/food"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/food"
+        android:textSize="22sp"
+        android:background="@color/tur"
+        android:onClick="foodMethod"/>
+
+    <Button
+        android:id="@+id/drink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/drink"
+        android:textSize="22sp"
+        android:background="@color/tur"
+        android:onClick="drinkMethod"/>
+
+    <Button
+        android:id="@+id/beauty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/beauty"
+        android:textSize="22sp"
+        android:background="@color/tur"
+        android:onClick="beautyMethod"/>
+
+    <ImageView
+        android:id="@+id/cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cart"
+        android:clickable="true"
+        android:onClick="showCartMethod"/>
+
+
+
+</LinearLayout>
